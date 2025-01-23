@@ -1,0 +1,62 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  .container {
+    max-width: 1417px;
+    width: 100%;
+    margin: 0 auto;
+  }
+  
+  .heading-2 {
+    font-size: 45px;
+    color: #000000;
+  }
+  
+  .heading-2--yellow {
+    color: #F99001;
+  }
+  
+  .hotels__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 80px;
+  }
+  
+  .hotels__title {
+    width: 350px;
+  }
+  
+  .hotels__icons {
+    display: flex;
+    gap: 30px;
+  }
+  
+  .hotels__icons-arrow {
+    width: 61px;
+    height: 50px;
+  }
+  
+  .hotels__card {
+    border-radius: 15px;
+  }
+  
+  .hotels__card--fairmont {
+    background: purple;
+    width: 33%;
+    height: 612px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    padding: 18px 30px;
+  }
+  
+  .hotels__card-info {
+    background: #FFFFFF;
+    width: 100%;
+    border-radius: 20px;
+    padding: 26px 30px;
+  }
