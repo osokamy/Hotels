@@ -7,7 +7,23 @@
         <title>Hotels</title>
     </head>
     <body>
-        <section class="hotels container">
+      <section class="intro">
+        <div class="container">
+          <div class="intro__content">
+            <h1 class="intro__title">Find Your Hotels & Many More ,
+              Touch The Dream!</h1>
+              <p class="intro__paragraph">Torem ipsum dolor sit amet, conse ctetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur tempus urna at turpis condimentum lobortis. Ut commodo efficitur neque.
+              </p>
+              <div class="search">
+                <input class="search__input input__location" type="text" placeholder="Location">
+                <input class="search__input" type="text" placeholder="Check in">
+                <input class="search__input" type="text" placeholder="Check out">
+                <button class="search__button">Search Now</button>
+              </div>
+          </div>
+        </div>
+      </section>
+        <section class="hotels__container">
             <div class="hotels__header">
               <h2 class="hotels__title heading-2">
                 Featured Hotels in <span class="heading-2--yellow">Cairo</span>
@@ -17,7 +33,25 @@
                 <img class="hotels__icons-arrow" src="https://cdn-icons-png.flaticon.com/512/271/271226.png" />
               </div>
             </div>
-            <div class="hotels__items">
+            <div class="cards">
+              <div class="hotels__items">
+                <div class="hotels__card hotels__card--fairmont">
+                  <div class="hotels__card-info">
+                    <h3 class="hotels__card-city">
+                      Cairo
+                    </h3>
+                    <h4 class="hotels__card-hotel">
+                      Fairmont hotel
+                    </h4>
+                    <div class="hotels__card-description">
+                      <p class="hotels__card-price">
+                        300+ per night
+                      </p>
+                      <div class="hotels__card-description-between"></div>
+                        See more
+                    </div>
+                  </div>
+                </div>
               <div class="hotels__card hotels__card--fairmont">
                 <div class="hotels__card-info">
                   <h3 class="hotels__card-city">
@@ -31,13 +65,100 @@
                       300+ per night
                     </p>
                     <div class="hotels__card-description-between"></div>
-                    <a href="#" class="hotels__card-description-more">
-                      <span>See more</span>
-                    </a>
+                    See more
                   </div>
                 </div>
               </div>
+            <div class="hotels__card hotels__card--fairmont">
+              <div class="hotels__card-info">
+                <h3 class="hotels__card-city">
+                  Cairo
+                </h3>
+                <h4 class="hotels__card-hotel">
+                  Fairmont hotel
+                </h4>
+                <div class="hotels__card-description">
+                  <p class="hotels__card-price">
+                    300+ per night
+                  </p>
+                  <div class="hotels__card-description-between"></div>
+                  See more
+                </div>
+              </div>
             </div>
+            </div>
+          </div>
           </section>
+          <section class="services">
+            <div class="container">
+                <h2 class="services-title heading-2">
+                    What <span class="heading-2--yellow">Services</span>, We <span class="heading-2--yellow">Give</span> You!
+                </h2>
+                <div class="services__cards">
+                    <div class="services__card">
+                        <div class="services__card-elipse"></div>
+                        <h3 class="services__card__title">Free WIFI</h3>
+                        <p class="services__card__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. In velit aliquid facere quaerat recusandae repellat hic dolorum eaque. Impedit tempore voluptatem, sint ipsa asperiores dolor dicta corrupti eius! Aliquam, sapiente.</p>
+                    </div>
+                    <div class="services__card">
+                        <div class="services__card-elipse"></div>
+                        <h3 class="services__card__title">Easy Booking</h3>
+                        <p class="services__card__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. In velit aliquid facere quaerat recusandae repellat hic dolorum eaque. Impedit tempore voluptatem, sint ipsa asperiores dolor dicta corrupti eius! Aliquam, sapiente.</p>
+                    </div>
+                    <div class="services__card">
+                        <div class="services__card-elipse"></div>
+                        <h3 class="services__card__title">Restaurants</h3>
+                        <p class="services__card__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. In velit aliquid facere quaerat recusandae repellat hic dolorum eaque. Impedit tempore voluptatem, sint ipsa asperiores dolor dicta corrupti eius! Aliquam, sapiente.</p>
+                    </div>
+                    <div class="services__card">
+                        <div class="services__card-elipse"></div>
+                        <h3 class="services__card__title">Swimming Pool</h3>
+                        <p class="services__card__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. In velit aliquid facere quaerat recusandae repellat hic dolorum eaque. Impedit tempore voluptatem, sint ipsa asperiores dolor dicta corrupti eius! Aliquam, sapiente.</p>
+                    </div>
+                    <div class="services__card">
+                        <div class="services__card-elipse"></div>
+                        <h3 class="services__card__title">Beauty & Health</h3>
+                        <p class="services__card__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. In velit aliquid facere quaerat recusandae repellat hic dolorum eaque. Impedit tempore voluptatem, sint ipsa asperiores dolor dicta corrupti eius! Aliquam, sapiente.</p>
+                    </div>
+                    <div class="services__card">
+                        <div class="services__card-elipse"></div>
+                        <h3 class="services__card__title">Support Team</h3>
+                        <p class="services__card__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. In velit aliquid facere quaerat recusandae repellat hic dolorum eaque. Impedit tempore voluptatem, sint ipsa asperiores dolor dicta corrupti eius! Aliquam, sapiente.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="rooms">
+          <div class="container">
+            <h2 class="heading__2">Our <span class="heading-2--yellow">Best</span> Rooms!</h2>
+            <div class="rooms__img">
+              <div class="left">
+                <div class="discount">
+                  <h3 class="procent">Save 10% Off</h3>
+                  <p class="discount__description">Torem ipsum dolor sit amet, conse ctetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur tempus urna at turpis condimentum lobortis. Ut commodo efficitur neque.
+                  </p>
+                  <button class="deals">Today Deals</button>
+                </div>
+                <img src="https://amihome.by/upload/iblock/192/bp0z4w1zr92xms1d1hcyxvqr5grhccv0/bed_loft_20.jpg" alt="" class="bed">
+              </div>
+              <img src="https://masterpiecer-images.s3.yandex.net/19da7d045f6011eeb4a45a1112d6d6c5:upscaled" class="center bed">
+              <div class="right">
+                <img src="https://meko.by/copied/7b0732591ab5779ec9aa0975fcd1cf24.jpg" alt="" class="bed bed__room">
+                <img src="https://cf.bstatic.com/xdata/images/hotel/max1024x768/498074654.jpg?k=25cce05609a842de1bd6cc39fc8ba46ab2c858e60022fd526e4ddfc9364dca5b&o=&hp=1" alt="" class="bed">
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="save">
+          <div class="container">
+            <div class="save__all">
+              <h2 class="save__title">Save Time & Save Money</h2>
+              <div class="registration">
+                <input class="search__email" type="email" placeholder="Type Your email">
+                <button class="subscribe">Subscribe Now</button>
+              </div>
+            </div>
+          </div>
+        </section>
     </body>
 </html>
